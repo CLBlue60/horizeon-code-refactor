@@ -1,13 +1,16 @@
+/* the following selector is a universal selector */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* this establishes the color of the page */
 body {
     background-color: #d9dcd6;
 }
 
+/* this establishes padding, background color, font color, and font family for the header section */
 header {
     padding: 20px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,13 +19,10 @@ header {
     color: #ffffff;
 }
 
+/* this affects the header section and keeps the list items inline  */
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
 }
 
 header nav {
@@ -51,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* this is the main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +61,7 @@ p {
     background-position: center;
 }
 
+/* the following 2 elements are aligned accoridngly on the page */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,6 +72,7 @@ p {
     margin-left: 25px;
 }
 
+/* these changes were made to align the benefits listing */
 .benefits {
     margin-left: 25px;
     padding: 20px;
@@ -82,17 +85,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -107,7 +100,7 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* this aligns the article section */
 article {
     margin-bottom: 20px;
     margin-right: 300px;
